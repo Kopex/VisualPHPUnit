@@ -25,9 +25,6 @@ return array(
 	'database_pass' => 'root',
 	
 	// array of bootstrap files to load
-	'bootstraps' => array(
-		APPPATH . 'tests/bootstrap.php',
-		APPPATH . 'tests/bootstrap_all_modules.php',
-	),
+	'bootstraps' => array(),
 	
 );
