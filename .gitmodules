@@ -1,0 +1,3 @@
+[submodule "vendor/VisualPHPUnit"]
+	path = vendor/VisualPHPUnit
+	url = git://github.com/transphorm/VisualPHPUnit.git
