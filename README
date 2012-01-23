@@ -1,0 +1,23 @@
+VisualPHPUnit Module for the Kohana V3 PHP Framework
+---------------------------------------------
+
+Thanks to NSinopoli - https://github.com/NSinopoli/VisualPHPUnit.
+
+Slightly modified version of VisualPHPUnit included in vendor to make it work as
+a Kohana module.
+
+1. Install phpunit http://www.phpunit.de/manual/3.7/en/installation.html.
+2. Clone VisualPHPUnit module into modules/visualphpunit.
+3. Initialize vendor submodule - git submodule init; git submodule update. 
+4. Copy media files from vendor/VisualPHPUnit/ui/js|styles|images into public facing media folders.
+5. Change the config settings in visualphpunit/config/visualphpunit.php.
+6. Go to localhost/phpunit to access VisualPHPUnit.
+
+Caveats:
+  If trying to use PDO mysql from a port install you have to manually include the socket location in the php.ini configuration.
+pdo_mysql.default_socket=/opt/local/var/run/mysql5/mysqld.sock
+
+Email me if you have any comments or suggestion. Thanks.
+
+Justin Hernandez
+justin[at]transphorm.com
