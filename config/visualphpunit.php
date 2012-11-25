@@ -3,14 +3,14 @@
 return array(
 
 	// media directories, copy assets from ui/
-	'css_dir' => 'assets/css/visualphpunit/',
-	'js_dir' => 'assets/js/visualphpunit/',
-	'img_dir' => 'assets/images/visualphpunit/',
+	'css_dir' => 'phpunit/media/',
+	'js_dir' => 'phpunit/media/',
+	'img_dir' => 'phpunit/media/',
 	
 	'display_errors' => 1,
-	'pear_path' => '/usr/share/pear',
+	'pear_path' =>"C:\\Documents and Settings\\admin\\Application Data\\PEAR\\pear",//'/usr/share/pear',
 	'base_install' => MODPATH . 'visualphpunit/vendor/VisualPHPUnit',
-	'test_directory' => APPPATH . '/tests/classes/',
+	'test_directory' => MODPATH . 'visualphpunit/vendor/VisualPHPUnit/tests',//APPPATH . '/tests/classes/',
 	'create_snapshots' => false,
 	'snapshot_directory' => MODPATH . 'visualphpunit/vendor/VisualPHPUnit/history/',
 	'sandbox_errors' => false,
